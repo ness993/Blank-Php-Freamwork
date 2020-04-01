@@ -1,1 +1,4 @@
-<h1>Welcome to Neno MVC Framework</h1>
+
+<?php $this->start('body');?>
+<h1 class="text-center red">Welcome to Neno MVC Framework</h1>
+<?php $this->end();?>
