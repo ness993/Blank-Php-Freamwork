@@ -9,5 +9,5 @@ class Home extends Controler{
         echo $name;
         $this->view->render('home/index');
     }
-
+//sada ima
 }
