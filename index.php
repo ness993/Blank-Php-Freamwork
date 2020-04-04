@@ -29,6 +29,7 @@ session_start();
 
 $url = isset($_SERVER['PATH_INFO'])? explode('/', ltrim($_SERVER['PATH_INFO'], '/')) : [];
 
-//Routh  the  request
 
+
+//Routh  the  request
 Router::route($url);
